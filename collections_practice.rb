@@ -27,7 +27,7 @@ def kesha_maker(names)
 end
   
 def find_a(string)
-  string.index {|sting| string == "a"}
+  string.find {|sting| string == "a"}
 end
 
 
