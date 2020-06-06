@@ -23,6 +23,7 @@ end
 
 def kesha_marker(string)
   new_array[]
+  new_array(2) =. "$"
   string.each do {|string| 's' => '$'}
 end
 
