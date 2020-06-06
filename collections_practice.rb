@@ -30,6 +30,7 @@ def find_a(words)
   words.select {|word| word.start_with?('a')}
 end
 
-
+def sum_array(num)
+  num.inject(0){|sum,num| sum + num }
 
 
