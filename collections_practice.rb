@@ -36,11 +36,11 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |word,index| 
-  if index == 1 
-    word
-  else
-    word << "s"
-  end
+  # if index == 1 
+  #   word
+  # else
+  #   word << "s"
+  # end
 end
 end
 
