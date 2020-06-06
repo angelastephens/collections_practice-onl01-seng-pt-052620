@@ -22,7 +22,7 @@ def reverse_array(num)
 end
 
 def kesha_maker(name)
-  name.each do {|name| name[3] = "$"}
+  character.each do {|name| name[3] = "$"}
   return name
 end
   
