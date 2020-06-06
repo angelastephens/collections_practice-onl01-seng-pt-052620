@@ -26,7 +26,9 @@ def kesha_maker(names)
   return names
 end
   
-
+def find_a(string)
+  string.start_with?
+  
 
 
 
