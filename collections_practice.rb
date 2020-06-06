@@ -22,8 +22,7 @@ def reverse_array(num)
 end
 
 def kesha_maker(string)
-  new_array=[]
-  new_array['3'] = "$"
+  string('3') = "$"
   return new_array
 end
   
