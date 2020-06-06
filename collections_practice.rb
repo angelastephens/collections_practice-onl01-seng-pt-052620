@@ -35,7 +35,7 @@ def sum_array(num)
 end
 
 def add_s(letter)
-  [1,2].each_with_index.collect {|element,index|}
+  [1,2].each_with_index.collect {|element,index| letter}
 end
 
 
