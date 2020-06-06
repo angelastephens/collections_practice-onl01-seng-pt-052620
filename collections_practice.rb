@@ -12,10 +12,13 @@ def sort_array_char_count(string)
   string.sort {|a,b| a.length <=> b.length}
 end
 
-def swap_elements(array)
+def swap_elements(array) (did not pass test )
   array.swap(1,2)
 end
 
 def reverse_array(num)
   num.reverse
 end
+
+def kesha_marker(string)
+
