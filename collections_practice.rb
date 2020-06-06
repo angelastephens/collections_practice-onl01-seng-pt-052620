@@ -26,9 +26,9 @@ def kesha_maker(names)
   return names
 end
   
-def find_a(strings)
-  strings.select {|string| string.start_with?('a')}.first()
-  return strings
+def find_a(words)
+  words.select {|word| word.start_with?('a')}.first()
+  return words
 end
 
 
