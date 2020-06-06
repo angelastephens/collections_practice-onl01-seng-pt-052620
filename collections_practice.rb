@@ -13,7 +13,7 @@ def sort_array_char_count(string)
 end
 
 def swap_elements(array)
-  array.swap(1,2)
+  array.swap {|a,b| a.each => b}
 end
 
 def reverse_array(num)
