@@ -26,8 +26,8 @@ def kesha_maker(names)
   return names
 end
   
-def find_a(string)
-  string.find {|sting| string == "a"}
+def find_a(strings)
+  strings.find {|sting| string == "a"}
 end
 
 
