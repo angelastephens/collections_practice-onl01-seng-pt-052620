@@ -35,7 +35,11 @@ def sum_array(num)
 end
 
 def add_s(letters)
-  letters.each_with_index.collect {|letter,index| letter << "s"}
+  letters.each_with_index.collect do |letter,index| 
+  if index == 1 
+    letter
+  else
+    letter << "s"
 end
 
 
