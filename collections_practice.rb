@@ -11,4 +11,4 @@ end
 def sort_array_char_count(string)
   string.sort {|string| string.length}
 end
-
+x.length <=> y.length
