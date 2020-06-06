@@ -21,8 +21,8 @@ def reverse_array(num)
   num.reverse
 end
 
-def kesha_maker(name)
-  name.each do {|name| letter[3] = "$"}
+def kesha_maker(names)
+  name.each do {|name| name[3] = "$"}
   return name
 end
   
