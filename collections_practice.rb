@@ -41,6 +41,7 @@ def add_s(words)
   # else
   #   word << "s"
   # end
+  "#{index+1}. #{word}"
 end
 end
 
