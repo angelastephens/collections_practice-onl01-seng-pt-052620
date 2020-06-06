@@ -16,6 +16,11 @@ def swap_elements(array)
   array.index {|a,b| b <=> a}
 end
 
+> a[0], a[1] = a[1], a[0]
+ => [2, 1]
+> a
+ => [2, 1, 3]
+
 def reverse_array(num)
   num.reverse
 end
