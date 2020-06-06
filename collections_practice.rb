@@ -21,13 +21,11 @@ def reverse_array(num)
 end
 
 def kesha_marker(string)
-  
-  def my_each(array)
-  i=0
-while i < array.length
- yield array[i]
- i= i+1
+  s=$
+
 end
 return array
 end
+
+
 
