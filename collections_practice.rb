@@ -24,6 +24,7 @@ end
 def kesha_marker(string)
   new_array=""
   new_array[2] = "$"
+  new_array
 end
   
 
