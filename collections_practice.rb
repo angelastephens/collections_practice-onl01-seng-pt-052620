@@ -13,9 +13,8 @@ def sort_array_char_count(string)
 end
 
 def swap_elements(array)
-  a=new_array
-  a[1], a[2] = a[2], a[1]
-  [2,1]
+  array = []
+  array[1], array[2] = array[2], array[2]
 end
 
 def reverse_array(num)
