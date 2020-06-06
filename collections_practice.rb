@@ -40,6 +40,8 @@ def add_s(letters)
     letter
   else
     letter << "s"
+  end
+end
 end
 
 
