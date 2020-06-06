@@ -23,7 +23,7 @@ end
 
 def kesha_marker(string)
   new_array[]
-  
+  string.each do|string| 
 end
 
 
