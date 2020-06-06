@@ -34,12 +34,12 @@ def sum_array(num)
   num.inject(0){|sum,num| sum + num }
 end
 
-def add_s(letters)
-  letters.each_with_index.collect do |letter,index| 
+def add_s(words)
+  words.each_with_index.collect do |word,index| 
   if index == 1 
-    letter
+    word
   else
-    letter << "s"
+    word << "s"
   end
 end
 end
