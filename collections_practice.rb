@@ -21,7 +21,7 @@ def reverse_array(num)
   num.reverse
 end
 
-def kesha_maker(name)
+def kesha_maker("name")
   name[3] = "$"
   return name
 end
