@@ -28,7 +28,7 @@ end
   
 def find_a(strings)
   strings.select {|string| string.start_with?('a')}.first()
-  return words
+  return strings
 end
 
 
