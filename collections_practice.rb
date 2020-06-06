@@ -23,7 +23,7 @@ end
 
 def kesha_maker(string)
   string('3') = "$"
-  return new_array
+  return string
 end
   
 
