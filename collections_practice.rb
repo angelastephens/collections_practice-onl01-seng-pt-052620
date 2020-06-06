@@ -21,10 +21,10 @@ def reverse_array(num)
 end
 
 def kesha_marker(string)
-  s=$
-
+my_subs = { 's' => '$'}
+my_word = "Ke$ha"
 end
-return array
+return string
 end
 
 
