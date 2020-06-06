@@ -21,7 +21,7 @@ def reverse_array(num)
   num.reverse
 end
 
-def kesha_marker(string)
+def kesha_maker(string)
   new_array=""
   new_array[2] = "$"
   return new_array
