@@ -28,7 +28,7 @@ end
   
 def find_a(string)
   string.start_with?("a")
-  
+end
 
 
 
